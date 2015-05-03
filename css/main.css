@@ -1,70 +1,43 @@
-<!doctype html>
-<html>
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
 
-  </head>
-  <body>
-    <div id="header">
-<h1>
-<a id="insinöörin-huone" class="anchor" href="#insin%C3%B6%C3%B6rin-huone" aria-hidden="true"><span class="octicon octicon-link"></span></a>Insinöörin Huone</h1>
-</div>
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
 
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/hyunsookim011">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
-
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>Hyunsoon Talo</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/hyunsookim011">hyunsookim011</a></span>
-          
-        </div>
-
-        <p>
-
-</p>
-
-
-<div id="section">
-<h2>
-<a id="hyunsoo-kim" class="anchor" href="#hyunsoo-kim" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hyunsoo Kim</h2>
-<p>
-
-</p>
-<p>I am a mechanical engineer living in Otaniemi. I'm interested in 3D printer, IoT and HVAC system. Changing paradigms inside of interdisciplinary industries, I hope to participate and be helpful.
-</p>
-</div>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
-
-        <p>
-
-</p>
-
-
-<div id="section">
-<h2>
-<a id="hyunsoo-kim" class="anchor" href="#hyunsoo-kim" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hyunsoo Kim</h2>
-<p>
-
-</p>
-<p>I am a mechanical engineer living in Otaniemi. I'm interested in 3D printer, IoT and HVAC system. Changing paradigms inside of interdisciplinary industries, I hope to participate and be helpful.
-</p>
-</div>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+ul.posts li {
+    list-style: none;
+}
